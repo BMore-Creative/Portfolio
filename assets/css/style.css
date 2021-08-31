@@ -1,0 +1,98 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar-item,
+.navbar-burger span {
+  color: #d8dbe0;
+}
+
+@media only screen and (max-width: 1023px) {
+  .navbar-menu {
+    background-color: #505058;
+  }
+}
+
+.hero.is-fullheight-with-navbar .hero-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.is-hero-heading {
+    font-size: 5rem;
+    color: #d8dbe0
+}
+
+.anchor {
+    scroll-margin-top: 125px;
+}
+
+@media only screen and (max-width: 1023px) {
+    .anchor {
+        scroll-margin-top: 250px;
+    }
+  }
+
+.message-header {
+    border-radius: 0;
+}
+
+.message-header {
+    background-color: #505058;
+}
+
+.message-body,
+.tile {
+    background-color: #d8dbe0;
+}
+
+.box {
+    background-color: white;
+}
+
+.image.is-220x220 {
+    height: 220px;
+    width: 220px;
+}
+
+.image img {
+    height: 100%;
+}
+
+.footer {
+    padding: 1.25rem
+}
+
+.is-brand-green {
+    background-color: #b5e299;
+}
+
+.is-font-green {
+    color: #b5e299;
+}
+
+.is-brand-light-grey {
+  background-color: #d8dbe0;
+}
+
+.is-font-light-grey {
+    color: #d8dbe0;
+}
+
+.is-brand-grey {
+  background-color: #505058;
+}
+
+.is-font-grey {
+    color: #505058;
+}
+
+.is-brand-dark-grey {
+  background-color: #313133;
+}
+
+.is-font-dark-grey {
+    color: #313133;
+}
