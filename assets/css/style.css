@@ -29,12 +29,6 @@
     scroll-margin-top: 125px;
 }
 
-@media only screen and (max-width: 1023px) {
-    .anchor {
-        scroll-margin-top: 250px;
-    }
-  }
-
 .message-header {
     border-radius: 0;
 }
