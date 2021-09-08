@@ -2,6 +2,10 @@
   font-family: "Raleway", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar-item,
 .navbar-burger span {
   color: #d8dbe0;
@@ -23,6 +27,10 @@
 .is-hero-heading {
     font-size: 5rem;
     color: #d8dbe0
+}
+
+#home {
+    scroll-margin-top: 55px;
 }
 
 .anchor {
