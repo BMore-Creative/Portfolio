@@ -23,6 +23,7 @@
   </head>
 
   <body class="has-navbar-fixed-top">
+    <!-- HEADER -->
     <header>
       <nav class="navbar has-shadow is-brand-dark-grey is-fixed-top is-spaced">
         <div class="navbar-brand">
@@ -90,10 +91,7 @@
               <span class="link">GitHub</span>
             </span>
           </a>
-          <a
-            href="https://www.linkedin.com/in/bmore-creative"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/bmore-creative" target="_blank">
             <span class="icon-text has-text-grey-lighter">
               <span class="icon">
                 <i class="fab fa-linkedin"></i>
@@ -115,41 +113,103 @@
         </div>
       </div>
     </section>
-    <!-- ABOUT ME -->
+    <!-- MAIN -->
     <main>
+      <!-- ABOUT ME -->
       <section class="section">
         <article class="message anchor" id="about-me">
           <div class="message-header">
             <p class="title is-font-light-grey">-About Me-</p>
           </div>
           <div class="message-body">
-            <div class="columns level">
-              <div class="column is-three-quarters level-item">
-                <p class="is-font-grey content">
-                  For as long as I could remember, I've always had the questions
-                  of 'How?' and 'Why?'. Time passed, and a passive appreciation
-                  for the internet slowly grew and turned those questions into a
-                  desire to know the innerworkings of web pages, applications,
-                  and the servers/databases behind them.
-                </p>
-                <p class="is-font-grey content">
-                  Cut to mid-2021, when I began my journey into web development,
-                  learning Javascript, Node.js, and more, through a full stack
-                  bootcamp through the University of Califonia, Riverside. I'm
-                  always looking for opportunities to expand my knowledge and
-                  continue to develop my skills as a Full Stack Developer.
-                </p>
-              </div>
-              <div class="column is-flex is-justify-content-center">
-                <figure class="image is-220x220 level-item">
-                  <img
-                    class="is-rounded"
-                    src="./assets/img/Avatar.png"
-                    alt="Geometric intersecting tetrahedra folded from paper using origami"
-                  />
-                </figure>
-              </div>
-            </div>
+            <article class="tile is-ancestor is-vertical">
+              <section class="tile is-child">
+                <div class="columns level">
+                  <div class="column is-three-quarters level-item">
+                    <div class="box">
+                      <p class="is-font-grey content">
+                        For as long as I could remember, I've always had the
+                        questions of 'How?' and 'Why?'. Time passed, and a
+                        passive appreciation for the internet slowly grew and
+                        turned those questions into a desire to know the
+                        innerworkings of web pages, applications, and the
+                        servers/databases behind them.
+                      </p>
+                      <p class="is-font-grey content">
+                        Cut to mid-2021, when I began my journey into web
+                        development, learning Javascript, Node.js, and more,
+                        through a full stack bootcamp through the University of
+                        Califonia, Riverside. I'm always looking for
+                        opportunities to expand my knowledge and continue to
+                        develop my skills as a Full Stack Developer.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="column is-flex is-justify-content-center">
+                    <figure class="image is-185x185 level-item">
+                      <img
+                        class="is-rounded"
+                        src="./assets/img/Avatar.png"
+                        alt="Geometric intersecting tetrahedra folded from paper using origami"
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </section>
+              <section class="tile is-flex is-justify-content-center">
+                <div class="is-brand-light-grey">
+                  <p class="title is-font-grey">Skills</p>
+                </div>
+              </section>
+              <section class="tile">
+                <div class="tile is-parent">
+                  <div class="tile is-child box">
+                    <p class="title has-text-centered is-font-grey">
+                      Front-end
+                    </p>
+                    <div class="tags is-justify-content-center are-medium">
+                      <span class="tag is-primary">HTML</span>
+                      <span class="tag is-primary">CSS</span>
+                      <span class="tag is-primary">Bulma CSS</span>
+                      <span class="tag is-primary">Bootstrap</span>
+                      <span class="tag is-primary">Javascript</span>
+                      <span class="tag is-primary">Handlebars</span>
+                      <span class="tag is-primary">React</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="tile is-parent">
+                  <div class="tile is-child box">
+                    <p class="title has-text-centered is-font-grey">Back-end</p>
+                    <div class="tags is-justify-content-center are-medium">
+                      <span class="tag is-info">Node</span>
+                      <span class="tag is-info">Express</span>
+                      <span class="tag is-info">Sequelize</span>
+                      <span class="tag is-info">Bcrypt</span>
+                      <span class="tag is-info">SQL/MySQL</span>
+                      <span class="tag is-info">MongoDB/Mongoose</span>
+                      <span class="tag is-info">REST API</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="tile is-parent">
+                  <div class="tile is-child box">
+                    <p class="title has-text-centered is-font-grey">
+                      Tools/Tech
+                    </p>
+                    <div class="tags is-justify-content-center are-medium">
+                      <span class="tag is-warning">Git</span>
+                      <span class="tag is-warning">Agile</span>
+                      <span class="tag is-warning">Heroku</span>
+                      <span class="tag is-warning">Kanban</span>
+                      <span class="tag is-warning">Microsoft Office</span>
+                      <span class="tag is-warning">Inquirer</span>
+                      <span class="tag is-warning">Markdown</span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </article>
           </div>
         </article>
       </section>
@@ -166,7 +226,9 @@
                 <!-- PROJECT 1 -->
                 <div class="tile is-parent">
                   <div class="tile is-child box">
-                    <p class="title has-text-centered mb-2">Coffee Tin</p>
+                    <p class="title has-text-centered mb-2 is-font-grey">
+                      Coffee Tin
+                    </p>
                     <div class="has-text-centered pb-2">
                       <p class="is-font-grey">
                         Full Stack application mock-up allowing authenticated
@@ -223,7 +285,9 @@
                 <!-- PROJECT 2 -->
                 <div class="tile is-parent">
                   <div class="tile is-child box">
-                    <p class="title has-text-centered mb-2">What's Cookin</p>
+                    <p class="title has-text-centered mb-2 is-font-grey">
+                      What's Cookin
+                    </p>
                     <div class="has-text-centered pb-2">
                       <p class="is-font-grey">
                         Front-end web application that provides the user food
@@ -279,7 +343,9 @@
                 <!-- PROJECT 3 -->
                 <div class="tile is-parent">
                   <div class="tile is-child box">
-                    <p class="title has-text-centered mb-2">Note Taker</p>
+                    <p class="title has-text-centered mb-2 is-font-grey">
+                      Note Taker
+                    </p>
                     <div class="has-text-centered pb-2">
                       <p class="is-font-grey">
                         Full Stack application that allows users to create notes
@@ -332,7 +398,7 @@
                 <!-- PROJECT 4 -->
                 <div class="tile is-parent">
                   <div class="tile is-child box">
-                    <p class="title has-text-centered mb-2">
+                    <p class="title has-text-centered mb-2 is-font-grey">
                       Professional README Generator
                     </p>
                     <div class="has-text-centered pb-2">
@@ -379,7 +445,7 @@
                 <!-- PROJECT 5 -->
                 <div class="tile is-parent">
                   <div class="tile is-child box">
-                    <p class="title has-text-centered mb-2">
+                    <p class="title has-text-centered mb-2 is-font-grey">
                       Weather Dashboard
                     </p>
                     <div class="has-text-centered pb-2">
@@ -432,7 +498,7 @@
                 <!-- PROJECT 6 -->
                 <div class="tile is-parent">
                   <div class="tile is-child box">
-                    <p class="title has-text-centered mb-2">
+                    <p class="title has-text-centered mb-2 is-font-grey">
                       Password Generator
                     </p>
                     <div class="has-text-centered pb-2">
